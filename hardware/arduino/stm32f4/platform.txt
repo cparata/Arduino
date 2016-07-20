@@ -115,7 +115,7 @@ tools.stlink.upload.pattern="{path}/{cmd}" {serial.port.file} {upload.altID} {up
 tools.dfu-util.cmd=dfu-util
 tools.dfu-util.cmd.windows=StAr_Write.bat
 
-tools.dfu-util.path={runtime.ide.path}/hardware/tools/dfu-util/bin
+tools.dfu-util.path={runtime.ide.path}/hardware/tools/dfu-util/win/bin
 
 tools.dfu-util.upload.params.verbose=-v
 tools.dfu-util.upload.params.quiet=
